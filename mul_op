@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    printf("Input seed money : ");
+    float seed_money;
+    scanf("%f", &seed_money);
+
+    printf("Input target money : ");
+    float target_money;
+    scanf("%f", &target_money);
+
+    printf("Input annual interest (%%) : ");
+    float interest;
+    scanf("%f", &interest);
+
+    float fund = seed_money;
+    int years = 0;
+    while (fund < target_money)
+    {
+        fund *= (1 + (interest * 0.01f));
+        years += 1;
+    }
+
+    printf("%d", years);
+
+    return 0;
+}
