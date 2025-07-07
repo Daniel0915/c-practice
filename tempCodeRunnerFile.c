@@ -1,1 +1,1 @@
-123
+sizeof(my_arr)
