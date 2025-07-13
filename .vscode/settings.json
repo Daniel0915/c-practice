@@ -4,5 +4,14 @@
         "stdint.h": "c",
         "inttypes.h": "c",
         "float.h": "c"
-    }
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "C_Cpp.clang_format_style": "file", // .clang-format 파일이 있을 경우 사용
+    "C_Cpp.clang_format_fallbackStyle": "LLVM" // 없으면 LLVM 스타일 기본
 }
