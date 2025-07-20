@@ -1,1 +1,1 @@
-sizeof(my_arr)
+s
